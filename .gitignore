@@ -13,6 +13,7 @@ gradle/
 piridialogs-release/
 pirifragments-release/
 piripreferences-release/
+*release/
 **.properties
 gradlew**
 **.log

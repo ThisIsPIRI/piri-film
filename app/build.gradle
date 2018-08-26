@@ -6,8 +6,8 @@ android {
 		applicationId "com.thisispiri.film"
 		minSdkVersion 23
 		targetSdkVersion 27
-		versionCode 1
-		versionName "0.4"
+		versionCode 2
+		versionName "0.4.1"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 	}
 	buildTypes {

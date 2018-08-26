@@ -1,0 +1,17 @@
+<resources>
+	<string name="app_name">PIRI  Film</string>
+	<string name="filmServiceDescription">The service that maintains the overlay of PIRI Film.</string>
+	<string name="overlayActive">Overlay active</string>
+	<string name="turnOff">Turn off</string>
+	<string name="toggle">Toggle</string>
+	<string name="color">Color</string>
+	<string name="toggleInstead">Toggle instead of turning off</string>
+	<string name="enableOverlay">Enable overlay</string>
+	<string name="filmColor">Film color</string>
+	<string name="confirm">Confirm</string>
+	<string name="cancel">Cancel</string>
+	<string name="controlPanel">PIRI Film\'s control panel</string>
+	<string name="cantFindNotificationManager">Notification manager could not be found. The control panel may not be shown.</string>
+	<string name="overlayDisabled">Overlay disabled</string>
+	<string name="permissionNeeded">The permission is needed for the overlay to work.</string>
+</resources>

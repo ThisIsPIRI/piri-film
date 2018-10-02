@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:custom="http://schemas.android.com/apk/res-auto">
+	<!--TODO: Replace the title with something more intuitive-->
 	<CheckBoxPreference
 		android:key="@string/enabledKey"
-		android:title="@string/enableOverlay"
+		android:title="@string/show"
 		android:defaultValue="false"/>
 	<com.thisispiri.preferences.ArgbPreference
 		android:key="@string/colorKey"

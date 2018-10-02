@@ -6,7 +6,6 @@
 	<string name="toggle">Toggle</string>
 	<string name="color">Color</string>
 	<string name="toggleInstead">Toggle instead of turning off</string>
-	<string name="enableOverlay">Enable overlay</string>
 	<string name="filmColor">Film color</string>
 	<string name="confirm">Confirm</string>
 	<string name="cancel">Cancel</string>
@@ -15,4 +14,5 @@
 	<string name="overlayDisabled">Overlay disabled</string>
 	<string name="permissionNeeded">The permission is needed for the overlay to work.</string>
 	<string name="credits">Credits</string>
+	<string name="show">Show controls</string>
 </resources>

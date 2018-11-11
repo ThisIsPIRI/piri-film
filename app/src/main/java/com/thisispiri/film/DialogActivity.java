@@ -1,8 +1,8 @@
 package com.thisispiri.film;
 
 import android.os.Bundle;
-import android.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentActivity;
 import android.widget.Toast;
 import com.thisispiri.dialogs.DialogListener;
 
@@ -13,7 +13,7 @@ public class DialogActivity extends FragmentActivity implements DialogListener {
 		super.onCreate(savedInstanceState);
 		try {
 			DialogFragment fragment = ((DialogFragment) ((Class) getIntent().getSerializableExtra("dialogFragmentClass")).newInstance());
-			fragment.show(getFragmentManager(), fragment.getClass().getName());
+			fragment.show(getSupportFragmentManager(), fragment.getClass().getName());
 		}
 		catch(InstantiationException e) {
 			Toast.makeText(this, "Failed to instantiate DialogFragment for the action", Toast.LENGTH_SHORT).show(); finish();

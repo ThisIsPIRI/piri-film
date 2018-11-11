@@ -1,7 +1,7 @@
 package com.thisispiri.film;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**Houses {@link SettingFragment}.*/
 public class SettingActivity extends AppCompatActivity {

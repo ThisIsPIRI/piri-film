@@ -6,9 +6,9 @@ android {
 		applicationId "com.thisispiri.film"
 		minSdkVersion 23
 		targetSdkVersion 28
-		versionCode 3
-		versionName "0.4.2"
-		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+		versionCode 4
+		versionName "0.4.3"
+		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 	}
 	buildTypes {
 		release {
@@ -19,9 +19,9 @@ android {
 }
 
 dependencies {
-	implementation project(':pirifragments-release')
+	implementation project(':piricomponents-release')
 	implementation project(':piripreferences-release')
 	implementation project(':piridialogs-release')
-	implementation 'com.android.support:appcompat-v7:28.0.0'
+	implementation 'androidx.appcompat:appcompat:1.0.2'
 	testImplementation 'junit:junit:4.12'
 }

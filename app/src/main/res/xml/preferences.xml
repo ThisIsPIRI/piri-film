@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:custom="http://schemas.android.com/apk/res-auto">
-	<!--TODO: Replace the title with something more intuitive-->
+	<!--TODO: Replace the titles with something more intuitive-->
 	<CheckBoxPreference
 		android:key="@string/enabledKey"
 		android:title="@string/show"
@@ -12,5 +12,5 @@
 		android:defaultValue="0x33000000" />
 	<com.thisispiri.preferences.CreditsPreference
 		android:title="@string/credits"
-		custom:text="The AOSP, for Android and the Support Library in Apache License 2.0\nYou can obtain a copy of Apache License 2.0 at https://www.apache.org/licenses/LICENSE-2.0"/>
+		custom:text="The AOSP, for AndroidX in Apache License 2.0\nYou can obtain a copy of Apache License 2.0 at https://www.apache.org/licenses/LICENSE-2.0"/>
 </PreferenceScreen>

@@ -2,5 +2,4 @@
 <resources>
 	<string name="colorKey" translatable="false">color</string>
 	<string name="enabledKey" translatable="false">enabled</string>
-	<string name="toggleInNotificationKey" translatable="false">toggleInNotification</string>
 </resources>

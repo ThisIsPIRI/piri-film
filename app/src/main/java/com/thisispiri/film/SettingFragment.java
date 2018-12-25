@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 /**Provides means to turn on/off the overlay or change its color.*/
 public class SettingFragment extends PreferenceFragment {
-	private Preference.OnPreferenceChangeListener changeListener = new FilmListener();
+	private final Preference.OnPreferenceChangeListener changeListener = new FilmListener();
 	private Intent filmIntent;
 	@Override public void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
